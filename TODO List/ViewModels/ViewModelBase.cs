@@ -1,7 +1,7 @@
-﻿using ReactiveUI;
+﻿using ComunityToolkit.Mvvm.ComponentModel;
 
 namespace TODO_List.ViewModels;
 
-public class ViewModelBase : ReactiveObject
+public class ViewModelBase : ObservableObject
 {
 }
