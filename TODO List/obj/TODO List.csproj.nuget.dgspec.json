@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Projekt-Avalonia\\TODO List\\TODO List.csproj": {}
+    "/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/TODO List.csproj": {}
   },
   "projects": {
-    "d:\\Projekt-Avalonia\\TODO List\\TODO List.csproj": {
+    "/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/TODO List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Projekt-Avalonia\\TODO List\\TODO List.csproj",
+        "projectUniqueName": "/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/TODO List.csproj",
         "projectName": "TODO List",
-        "projectPath": "d:\\Projekt-Avalonia\\TODO List\\TODO List.csproj",
-        "packagesPath": "C:\\Users\\YellowMaster\\.nuget\\packages\\",
-        "outputPath": "d:\\Projekt-Avalonia\\TODO List\\obj\\",
+        "projectPath": "/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/TODO List.csproj",
+        "packagesPath": "/home/szyla/.nuget/packages/",
+        "outputPath": "/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\YellowMaster\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/szyla/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,12 +79,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.6, 8.0.6]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

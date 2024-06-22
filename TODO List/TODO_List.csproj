@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.Desktop" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.5"/>
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.5"/>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+    </ItemGroup>
+
+    <!-- Dodanie brakującego odwołania do projektu lub pakietu zawierającego modele -->
+    <ItemGroup>
+        <!-- Przykład dodania odwołania do projektu -->
+        <!-- <ProjectReference Include="..\Path\To\ModelsProject\ModelsProject.csproj" /> -->
+        <!-- Lub przykład dodania odwołania do pakietu NuGet, jeśli modele są w pakiecie -->
+        <!-- <PackageReference Include="YourModelsPackageName" Version="YourModelsPackageVersion" /> -->
+    </ItemGroup>
+</Project>

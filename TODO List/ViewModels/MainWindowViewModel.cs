@@ -1,8 +1,10 @@
-﻿namespace TODO_List.ViewModels;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.DependencyInjection;
 
-public class MainWindowViewModel : ViewModelBase
+namespace TODO_List.ViewModels
 {
-#pragma warning disable CA1822 // Mark members as static
-    public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+    public class MainWindowViewModel : ObservableRecipient
+    {
+        public string Greeting => "Welcome to Avalonia!";
+    }
 }
