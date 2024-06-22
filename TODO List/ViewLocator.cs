@@ -1,13 +1,12 @@
 using Avalonia.Controls;
-using Avalonia.Controls.Templates;
 using TODO_List.ViewModels;
 using System;
 
 namespace TODO_List
 {
-    public class ViewLocator : IDataTemplate
+    public class ViewLocator
     {
-        public Control? Build(object? data)
+        public static Control? Build(object? data)
         {
             if (data is null)
                 return null;
@@ -25,9 +24,9 @@ namespace TODO_List
             return new TextBlock { Text = "Not Found: " + name };
         }
 
-        public bool Match(object? data)
+        public static bool Match(object? data)
         {
-            return data is TODO_List.ViewModels.ViewModelBase;
+            return data is ViewModelBase;
         }
     }
 }

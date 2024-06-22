@@ -1,6 +1,4 @@
-using System.Linq;
 using Avalonia.Controls;
-using TODO_List.ViewModels;
 
 namespace TODO_List.Views
 {
@@ -11,7 +9,7 @@ namespace TODO_List.Views
             InitializeComponent();
         }
 
-        private void InitializeComponent()
+        private static void InitializeComponent()
         {
             // Add your initialization logic here
         }
