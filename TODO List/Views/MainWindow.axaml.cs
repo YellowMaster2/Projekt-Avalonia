@@ -1,6 +1,5 @@
 using System.Linq;
 using Avalonia.Controls;
-// Usunięto: using TODO_List.Services; // Usunięcie odwołania do nieistniejącej przestrzeni nazw
 using TODO_List.ViewModels;
 
 namespace TODO_List.Views

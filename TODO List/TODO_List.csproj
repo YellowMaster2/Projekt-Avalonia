@@ -21,11 +21,8 @@
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
     </ItemGroup>
 
-    <!-- Dodanie brakującego odwołania do projektu lub pakietu zawierającego modele -->
     <ItemGroup>
-        <!-- Przykład dodania odwołania do projektu -->
         <!-- <ProjectReference Include="..\Path\To\ModelsProject\ModelsProject.csproj" /> -->
-        <!-- Lub przykład dodania odwołania do pakietu NuGet, jeśli modele są w pakiecie -->
         <!-- <PackageReference Include="YourModelsPackageName" Version="YourModelsPackageVersion" /> -->
     </ItemGroup>
 </Project>
