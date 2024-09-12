@@ -1,8 +1,0 @@
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.csproj.AssemblyReference.cache
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/Avalonia/resources
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.GeneratedMSBuildEditorConfig.editorconfig
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.AssemblyInfoInputs.cache
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.AssemblyInfo.cs
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.csproj.CoreCompileInputs.cache
-/home/szyla/Dokumenty/Avalonia project/Projekt-Avalonia/TODO List/obj/Debug/net8.0/TODO List.sourcelink.json
